@@ -14,12 +14,12 @@ API_ID = int(os.environ.get("API_ID", "18173285"))
 API_HASH = os.environ.get("API_HASH", "7de83a18908670bfd9c6179dcf2483c6")
 
 CHANNEL_DB = int(os.environ.get("CHANNEL_DB", "-1002062005530"))
-MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://ray1:ray2@cluster0.nycdm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://ray3:ray4@cluster0.3busc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 RESTRICT = strtobool(os.environ.get("RESTRICT", "True"))
 
-FORCE_SUB_1 = int(os.environ.get("FORCE_SUB_1", "-1001910996252"))
-FORCE_SUB_2 = int(os.environ.get("FORCE_SUB_2", "0"))
+FORCE_SUB_1 = int(os.environ.get("FORCE_SUB_1", "-1002121573997"))
+FORCE_SUB_2 = int(os.environ.get("FORCE_SUB_2", "-1002004065749"))
 FORCE_SUB_3 = int(os.environ.get("FORCE_SUB_3", "0"))
 FORCE_SUB_4 = int(os.environ.get("FORCE_SUB_4", "0"))
 
